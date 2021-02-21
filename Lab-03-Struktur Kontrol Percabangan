@@ -1,0 +1,84 @@
+print("Michelle Shannen Audrey Darmawan")
+print("NIM:71200564")
+print()
+
+'''
+Audrey ingin memanggang kue untuk hari ulang tahun ayahnya, tetapi karena ada banyak sekali pilihan Audrey bingung kue seperti
+apa yang ingin dia panggang untuk ayahnya.
+
+
+Input= angka bentuk yang dipilih; angka rasa yang dipilih; huruf toping yang dipilih; Angka pada lilin; Jawaban yakin atau tidak
+
+Proses:
+1.memilih bentuk kue seperti apa yang Audrey inginkan 
+2.memilih rasa kue yang Audrey inginkan
+3.memilih toping yang akan Audrey taruh diatas kue
+4.memasukkan lilin angka berapa yang akan dipasang di kue
+5.memilih yakin atau tidak Audrey dengan semua pilihannya tadi
+
+Output:
+1.Bentuk kue
+2.Rasa kue
+3.Toping kue
+4.Angka lilin
+5.Yakin tidaknya Audrey dengan pilihannya
+'''
+print("----------PROGRAM MODEL KUE----------")
+print()
+print("LANGKAH-1")
+print("Tentukan bentuk kue apa yang ingin dibuat?:")
+print("1.Bundar")
+print("2.Kotak")
+print("3. Hati")
+bentuk=int(input("Pilih antara 1/2/3:"))
+if bentuk ==1:
+    print("Bentuk kue pilihanmu adalah BUNDAR")
+elif bentuk==2:
+    print("Bentuk kue pilihanmu adalah KOTAK")
+elif bentuk ==3:
+    print("Bentuk kue pilihanmu adalah HATI")
+else:
+    print("Pilihan anda ada diluar pilihan yang disediakan, silahkan pilih ulang")
+    quit()
+print()
+print("LANGKAH KE-2")
+print("Rasa kue seperti apa yang kamu inginkan?")
+print("1.Blackforest")
+print("2. Red velvet")
+print("3.Pandan")
+rasa=int(input("Masukkan angka pilihanmu 1/2/3:"))
+if rasa==1:
+    print("Rasa kuemu adalah BLACKFOREST")
+elif rasa==2:
+    print("Rasa kuemu adalah RED VELVET")
+elif rasa==3:
+    print("Rasa kuemu adalah PANDAN")
+else:
+    print("Pilihan anda ada diluar pilihan yang disediakan, silahkan pilih ulang")
+    quit()
+print()
+print("LANGKAH KE-3")
+print("Toping yang mana yang akan ditaruh di kue?")
+print("a. Buah-buahan")
+print("b.Coklat karakter")
+toping=input("Masukkan pilihanmu a/b:")
+if toping==('a'):
+    print("Toping yang kamu pilih BUAH BUAHAN")
+elif toping==('b'):
+    print("Toping yang kamu pilih COKLAT KARAKTER")
+else:
+    print("Pilihan anda ada diluar pilihan yang disediakan, silahkan pilih ulang")
+    quit()
+print()
+print("Lilin angka berapa yang mau dipasang di atas kue?")
+lilin =int(input("Masukkan angka lilin:"))
+print("Angka lilin yang akan dipasang diatas kue adalah",lilin)
+print()
+print("Apakah kamu sudah yakin dengan semua pilihanmu?")
+print("<Y>a/<T>idak")
+pilih=input("Masukkan pilihanmu:")
+if pilih.upper()==('Y'):
+    print("Baiklah selamat memanggang!!!")
+else:
+    print("Mari kita ulangi !!!")
+
